@@ -1,0 +1,10 @@
+C:\Users\Jake\Desktop\Tequila-master\BourbonPC\bin\Debug\Bourbon.exe.config
+C:\Users\Jake\Desktop\Tequila-master\BourbonPC\bin\Debug\Bourbon.exe
+C:\Users\Jake\Desktop\Tequila-master\BourbonPC\bin\Debug\Bourbon.pdb
+C:\Users\Jake\Desktop\Tequila-master\BourbonPC\obj\x86\Debug\BourbonPC.csprojAssemblyReference.cache
+C:\Users\Jake\Desktop\Tequila-master\BourbonPC\obj\x86\Debug\Bourbon.Preferences.resources
+C:\Users\Jake\Desktop\Tequila-master\BourbonPC\obj\x86\Debug\Bourbon.Bourbon.resources
+C:\Users\Jake\Desktop\Tequila-master\BourbonPC\obj\x86\Debug\BourbonPC.csproj.GenerateResource.cache
+C:\Users\Jake\Desktop\Tequila-master\BourbonPC\obj\x86\Debug\BourbonPC.csproj.CoreCompileInputs.cache
+C:\Users\Jake\Desktop\Tequila-master\BourbonPC\obj\x86\Debug\Bourbon.exe
+C:\Users\Jake\Desktop\Tequila-master\BourbonPC\obj\x86\Debug\Bourbon.pdb
