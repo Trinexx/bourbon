@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 <manifest>
     <profiles>
-        <launch exec="score.exe" order="0" params="-auth 127.0.0.1 -console -patchdir score -noversioncheck">Local Server</launch>
+        <launch exec="score.exe" order="0" params="-auth play.oddlink.com -console -patchdir score -noversioncheck">Oddlink</launch>
+		<launch exec="score.exe" order="0" params="-auth 127.0.0.1 -console -patchdir score -noversioncheck">Local Server</launch>
     </profiles>
 </manifest>
