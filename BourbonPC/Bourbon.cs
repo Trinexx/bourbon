@@ -337,7 +337,8 @@ namespace Bourbon
                         {
                             items.Add(new LaunchProfile(profile.Value.ToString().Replace("My App: ", "").Trim(),
                                                          profile.Attribute("exec").Value,
-                                                         profile.Attribute("params").Value));
+                                                         profile.Attribute("params").Value,
+                                                         new Uri(profile.Attribute("landingPage").Value)));
                         }
 
                         if (DevMode) {
@@ -347,7 +348,8 @@ namespace Bourbon
                             {
                                 items.Add(new LaunchProfile(profile.Value.ToString().Replace("My App: ", "").Trim(),
                                                              profile.Attribute("exec").Value,
-                                                             profile.Attribute("params").Value));
+                                                             profile.Attribute("params").Value,
+                                                             new Uri(profile.Attribute("landingPage").Value)));
                             }
                         }
 
@@ -450,5 +452,8 @@ namespace Bourbon
             }
         }
 
+        private void ListBox1_SelectedValueChanged(object sender, EventArgs e) {
+            webBrowser1.Url = (ListBox1.SelectedItem is LaunchProfile profile) ? profile.LandingPage : new Uri("about:blank");
+        }
     }
 }
