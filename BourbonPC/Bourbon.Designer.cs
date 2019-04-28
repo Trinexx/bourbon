@@ -131,6 +131,7 @@
             this.ListBox1.Name = "ListBox1";
             this.ListBox1.Size = new System.Drawing.Size(244, 250);
             this.ListBox1.TabIndex = 0;
+            this.ListBox1.SelectedValueChanged += new System.EventHandler(this.ListBox1_SelectedValueChanged);
             this.ListBox1.DoubleClick += new System.EventHandler(this.btnPlay_Click);
             // 
             // timer1
