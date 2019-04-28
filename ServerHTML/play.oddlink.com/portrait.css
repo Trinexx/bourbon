@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+}
+
+div.page {
+  padding: 30px;
+  top: 33%;
+  -webkit-transform: translateY(-33%);
+  -moz-transform: translateY(-33%);
+  -ms-transform: translateY(-33%);
+  -o-transform: translateY(-33%);
+  transform: translateY(-33%);
+  display: inline-block;
+  left: 0;
+  right: 0;
+}
+body#main div.page {
+  position: absolute;
+}
+body#embed div.page {
+  position: fixed;
+}
+
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+}
