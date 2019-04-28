@@ -53,7 +53,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>bourbon.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\bourbon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>59D9AD13731F0CA2776520BB4CB109298D08B8AD</ManifestCertificateThumbprint>
@@ -133,7 +133,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bourbon.ico" />
     <Content Include="Resources\Bourbon.ico" />
   </ItemGroup>
   <ItemGroup>

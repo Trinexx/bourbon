@@ -335,10 +335,12 @@ namespace Bourbon
 
                         foreach (XElement profile in Profiles)
                         {
+                            var landingPage = profile.Attribute("landingPage");
+                            var landingPageUri = new Uri(landingPage?.Value ?? "about:blank");
                             items.Add(new LaunchProfile(profile.Value.ToString().Replace("My App: ", "").Trim(),
                                                          profile.Attribute("exec").Value,
                                                          profile.Attribute("params").Value,
-                                                         new Uri(profile.Attribute("landingPage").Value)));
+                                                         landingPageUri));
                         }
 
                         if (DevMode) {
@@ -346,10 +348,12 @@ namespace Bourbon
                             
                             foreach (XElement profile in Profiles)
                             {
+                                var landingPage = profile.Attribute("landingPage");
+                                var landingPageUri = new Uri(landingPage?.Value ?? "about:blank");
                                 items.Add(new LaunchProfile(profile.Value.ToString().Replace("My App: ", "").Trim(),
                                                              profile.Attribute("exec").Value,
                                                              profile.Attribute("params").Value,
-                                                             new Uri(profile.Attribute("landingPage").Value)));
+                                                             landingPageUri));
                             }
                         }
 
